@@ -31,8 +31,8 @@ Regisztáld és hozd létre a botod a szerverre ezen a linken: https://discord.c
 - `CLIENT_ID
 
 ## Parancsok:
-- `/ping üzenet`
-- `/ping-embed formátozz üzenet`
+- `/ping` üzenet
+- `/ping-embed` formátozz üzenet
 - `/toggle-answer` Ha ez be van kapcsolva akkor ha a `!`-jellel kezded az üzenetet akkor vissza írja válaszul hogy __ok.__
 
 ## Kérdés, megjegyzés esetén

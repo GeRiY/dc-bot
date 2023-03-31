@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "refresh-node-modules": "docker cp dc-bot-1610:/usr/src/app/node_modules ."
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "discord.js": "^14.8.0"
+  }
+}

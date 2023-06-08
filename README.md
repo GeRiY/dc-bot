@@ -3,37 +3,36 @@
 ## package.json
 ```javascript
 {
-"dotenv": "^16.0.3",
-"discord.js": "^14.8.0"
+   "dotenv": "^16.0.3",
+   "discord.js": "^14.8.0"
 }
 ```
-## Dokumentációk amiket használtam
+## Documentation used
 - [Discord.js.org](https://discord.js.org/#/docs/main/stable/general/welcome)
 
-## Telepítés lépések
-Regisztáld és hozd létre a botod a szerverre ezen a linken: https://discord.com/developers/applications
+## Installation steps
+Register and create your bot on the server at this link: https://discord.com/developers/applications
 
-1. Klónozd a repot: https://github.com/GeRiY/dc-bot.git
-2. Futtasd meg: `npm install`
-3. Csinálj egy `.env` fájlt a `.env-example` fájból
-4. Töltsd ki a `.env` fájlban a kért adatokat.
-5. Az oldalon https://discord.com/developers/applications a kiválasztott `BOT`-nál az `OAuth2` oldalsó menüpontban
-   a `Scops`-nál ki kell jelölni a `Bot`-ot és a kapott `Link`-et meg kell hívni majd ott be kell állítani hogy
-   melyik szerverre regisztrálja be a `Bot`-ot.
-6. Futtasd a programot: `npm run dev`
-7. Használd a Bot-ot a `.env`-ben megadott szerveren.
+1. Clone the repo: https://github.com/GeRiY/dc-bot.git
+2. Run: `npm install`
+3. Create a `.env` file from the `.env-example` file
+4. Fill in the requested information in the `.env` file.
+5. On the page https://discord.com/developers/applications in the `OAuth2` sidebar at the selected `BOT`,
+   you need to check `Bot` at `Scops` and call the received `Link` and then set up which server to register the `Bot`.
+6. Run the program: `npm run dev`
+7. Use the Bot on the server specified in `.env`.
 
-## Kért adatok beszerzése
-### `.env` fájlban a 
-- `TOKEN` értékét az oldalon https://discord.com/developers/applications 
-  bejelentkezés után a kiválasztott vagy létrehozott Aplikációt megnyitva a `Bot` nevű oldalsó menüpontban találod meg.
-  Ott tudsz neki generálni majd `Copy`-val kimásolni.
+## Acquiring requested data
+### In the `.env` file
+- You can find the value for `TOKEN` on the page https://discord.com/developers/applications
+  after logging in by opening the selected or created Application and going to the sidebar titled `Bot`.
+  There you can generate it and copy it with `Copy`.
 - `CLIENT_ID
 
-## Parancsok:
-- `/ping` üzenet
-- `/ping-embed` formátozz üzenet
-- `/toggle-answer` Ha ez be van kapcsolva akkor ha a `!`-jellel kezded az üzenetet akkor vissza írja válaszul hogy __ok.__
+## Commands:
+- `/ping` message
+- `/ping-embed` format message
+- `/toggle-answer` If this is turned on, then if you start the message with `!`, it will respond with __ok.__
 
-## Kérdés, megjegyzés esetén
+## For questions or comments
 - mgeri1993@gmail.com
